@@ -15,7 +15,7 @@ make
 
 #### To run the event generator:
 
-The configuration files are in the folder called UT-config at the same level as EventGeneration. Copy it into the EventGeneration folder and then run:
+The configuration files are in the folder called UT-config(-SM) at the same level as EventGeneration. Copy it into the EventGeneration folder and then run:
 
 ./analysis UT-config/StandardModel.conf 0
 
@@ -37,7 +37,7 @@ make
 
 #### To run the Monte Carlo:
 
-The configuration files are in the folder called UT-config. Copy it and then run:
+The configuration files are in the folder called UT-config(-SM). Copy it and then run:
 
 ./analysis UT-config/StandardModel.conf config/MonteCarlo.conf
 
