@@ -39,3 +39,4 @@ build/bin
 build/include
 build/lib
 THDM/src/THDMcache.cpp
+*ninja*
