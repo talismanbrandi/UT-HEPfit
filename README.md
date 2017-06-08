@@ -4,7 +4,7 @@ A HEPfit package to perform a Unitarity Triangle fit
 #### To install HEPfit:
 
 cd HEPfit/build/     
-cmake .. -DLOCAL_INSTALL_ALL=ON -DNOMCMC=ON    
+cmake .. -DLOCAL_INSTALL_ALL=ON -DMPIBAT=ON    
 make    
 make install
 
@@ -45,4 +45,4 @@ Alternatively one can use openMPI (with N threads):
 
 mpiexec -n N ./analysis UT-config/StandardModel.conf UT-config/MonteCarlo.conf
 
-we recommend 1 chain per core. Please look into the MonteCarlo.conf for the settings
+we recommend 1 chain per core. Please look into the MonteCarlo.conf for the settings. 
